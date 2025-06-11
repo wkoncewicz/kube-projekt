@@ -4,7 +4,6 @@ metadata:
   name: mysql-credentials
 stringData:
   MYSQL_ROOT_PASSWORD: rootpass
-  MYSQL_DATABASE: testdb
   MYSQL_USER: user
   MYSQL_PASSWORD: pass
 ---
