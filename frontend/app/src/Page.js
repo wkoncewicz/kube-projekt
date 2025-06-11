@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { motion } from 'framer-motion';
-const url = 'http://backend-service:5000';
+const url = process.env.REACT_APP_BACKEND_URL;
 
 function Page() {
     const [posts, setPosts] = useState([]);

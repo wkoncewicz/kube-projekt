@@ -68,7 +68,6 @@ spec:
       targetPort: 5000
   type: ClusterIP
 ---
----
 apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
 metadata:
